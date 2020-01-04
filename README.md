@@ -18,6 +18,8 @@ BunnyPHP is a lightweight PHP MVC Framework.
 
 English | [中文](README_CN.md)
 
+[![Run on Repl.it](https://repl.it/badge/github/ivanlulyf/bunnyphp-app)](https://repl.it/github/ivanlulyf/bunnyphp-app)
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/IvanLuLyf/BunnyPHP-App)
 
 ## Contents
