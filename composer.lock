@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IvanLuLyf/BunnyPHP.git",
-                "reference": "2c6dfb359ef05443abacb77ca9c7abcb2bd05092"
+                "reference": "9f21f2775704749e8e147786eacc5de07583dc10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IvanLuLyf/BunnyPHP/zipball/2c6dfb359ef05443abacb77ca9c7abcb2bd05092",
-                "reference": "2c6dfb359ef05443abacb77ca9c7abcb2bd05092",
+                "url": "https://api.github.com/repos/IvanLuLyf/BunnyPHP/zipball/9f21f2775704749e8e147786eacc5de07583dc10",
+                "reference": "9f21f2775704749e8e147786eacc5de07583dc10",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "framework",
                 "mvc"
             ],
-            "time": "2020-03-06T14:06:32+00:00"
+            "time": "2020-03-14T08:13:02+00:00"
         }
     ],
     "packages-dev": [],
