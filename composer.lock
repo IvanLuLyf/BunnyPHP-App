@@ -12,19 +12,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/IvanLuLyf/BunnyPHP.git",
-                "reference": "d4f3ff33d58aa85cac104b7bbbd623ec019ba1cc"
+                "reference": "8d5c80e033234b5b90032e0ff19aeb342bb0dda3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IvanLuLyf/BunnyPHP/zipball/d4f3ff33d58aa85cac104b7bbbd623ec019ba1cc",
-                "reference": "d4f3ff33d58aa85cac104b7bbbd623ec019ba1cc",
+                "url": "https://api.github.com/repos/IvanLuLyf/BunnyPHP/zipball/8d5c80e033234b5b90032e0ff19aeb342bb0dda3",
+                "reference": "8d5c80e033234b5b90032e0ff19aeb342bb0dda3",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+                "ext-mbstring": "*",
                 "ext-pdo": "*",
-                "php": ">=7.0"
+                "php": "^7.4|^8.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -42,11 +44,18 @@
                 }
             ],
             "description": "a lightweight PHP MVC Framework",
+            "homepage": "https://ivanlulyf.github.io/BunnyPHP",
             "keywords": [
                 "framework",
                 "mvc"
             ],
-            "time": "2020-12-07T16:05:01+00:00"
+            "support": {
+                "docs": "https://ivanlulyf.github.io/BunnyPHP",
+                "forum": "https://github.com/IvanLuLyf/BunnyPHP/discussions",
+                "issues": "https://github.com/IvanLuLyf/BunnyPHP/issues",
+                "source": "https://github.com/IvanLuLyf/BunnyPHP"
+            },
+            "time": "2021-10-05T18:18:22+00:00"
         }
     ],
     "packages-dev": [],
@@ -58,5 +67,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
