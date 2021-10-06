@@ -1,8 +1,10 @@
 #!/usr/bin/env php
 <?php
-define('APP_PATH', __DIR__ . '/');
-define('APP_DEBUG', true);
-define("IN_TWIMI_PHP", "True", TRUE);
+
+use BunnyPHP\BunnyPHP;
+
+const APP_PATH = __DIR__ . '/';
+const APP_DEBUG = true;
 date_default_timezone_set('PRC');
 require 'vendor/autoload.php';
-(new \BunnyPHP\BunnyPHP(\BunnyPHP\BunnyPHP::MODE_CLI))->run();
+(new BunnyPHP(BunnyPHP::MODE_CLI))->run();
