@@ -12,6 +12,6 @@ class IndexController extends Controller
 {
     function ac_index()
     {
-        $this->render("index.html");
+        $this->render('index.php');
     }
 }
